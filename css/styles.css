@@ -38,6 +38,9 @@ h4{
     font-size: 24px;
     font-weight: 400;
 }
+details{
+    margin-block-end: 10px;
+}
 summary{
     color: var(--white);
     font-size: 14px;
@@ -91,7 +94,7 @@ pre{
 .hero{
     inline-size: 100vw;
     block-size: 320px;
-    background: linear-gradient(96.07deg, var(--blue10) 30.63%, var(--blue) 102.18%);
+    background:linear-gradient(to top, var(--gray), transparent),  linear-gradient(96.07deg, var(--blue10) 30.63%, var(--blue) 102.18%);
 }
 
 .wrapper{
@@ -109,6 +112,9 @@ nav{
     position: sticky;
     top: 20px;
 }
+nav ol li a:hover{
+    color: var(--white);
+} 
 nav ol li a:focus{
     color: var(--white);
 } 
@@ -245,7 +251,7 @@ main{
     transition: all .8s;
 }
 footer{
-    background: linear-gradient(96.07deg, var(--blue10) 30.63%, var(--blue) 102.18%);
+    background: linear-gradient(to bottom, var(--gray), transparent), linear-gradient(96.07deg, var(--blue10) 30.63%, var(--blue) 102.18%);
     text-align: center;
     block-size: 176px;
     inline-size: 100vw;
